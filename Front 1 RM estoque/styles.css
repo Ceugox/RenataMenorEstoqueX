@@ -1,0 +1,195 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background-color: #ffcccb; /* Cor de fundo da página */
+    color:#ccc
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: white; /* Cor de fundo do container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50; /* Cor de fundo dos botões */
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2; /* Cor de fundo do cabeçalho da tabela */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor de fundo das linhas alternadas da tabela */
+}
+
+.available {
+    color: green;
+}
+
+.unavailable {
+    color: red;
+}
+
+.entrada-btn, .saida-btn, .excluir-btn {
+    color: rgb(red, green, blue);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+.entrada-btn {
+    background-color: #4CAF50; /* Cor de fundo do botão Dar Entrada */
+}
+
+.entrada-btn:hover {
+    background-color: #45a049;
+}
+
+.saida-btn {
+    background-color: #f44336; /* Cor de fundo do botão Dar Saída */
+}
+
+.saida-btn:hover {
+    background-color: #e53935;
+}
+
+.excluir-btn {
+    background-color: #000000; /* Cor de fundo do botão Excluir */
+}
+
+.excluir-btn:hover {
+    background-color: #555555;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+input {
+    flex-basis: 45%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+button {
+    flex-basis: 100%;
+    padding: 0.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color:#f8bebd;
+    color: white;
+    font-weight: normal;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+td:last-child {
+    width: 15%;
+}
+
+button.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+button.delete:hover {
+    background-color: #da190b;
+}
